@@ -1,0 +1,146 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/imagenes/purple-light-streams.jpg);
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+    background: rgb(10, 13, 14);
+    background: linear-gradient(90deg, rgba(77, 78, 84, 1) 0%, rgba(146, 150, 149, 1) 100%);
+    border: 3px solid #000;
+    border-radius: 3px;
+}
+
+h1 {
+    margin-left: 5em;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+h2 {
+    margin-left: 8em;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
+#info-table {
+    position: absolute;
+    display: inline-block;
+    width: 60em;
+    height: 15em;
+    background-color: rgb(10, 13, 14);
+    color: whitesmoke;
+    margin-left: 9em;
+}
+
+#info-input {
+    width: 20em;
+    color: whitesmoke;
+    margin-top: 15em;
+    display: inline-block;
+    position: relative;
+}
+#info-input > div {
+    width: 60em;
+    margin-left: 9em;
+    background-color: rgb(10, 13, 14);
+}
+
+
+.btbuy {
+    margin-left: 30em;
+}
+
+button {
+    position: relative;
+    background-color: rgb(10, 13, 14);
+    color: whitesmoke;
+    border: 5px whitesmoke outset;
+    border-radius: 2px;
+    font-family: monospace;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 0.5em;
+}
+
+.botones {
+    margin-top: 20em;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#resultTotalMoney,
+#integralTotal {
+    color:whitesmoke;
+    background-color: rgb(10, 13, 14);
+}
+.total-div {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.btdelete {
+    background-color: rgb(74, 75, 75);
+    color: whitesmoke;
+    border: 5px whitesmoke outset;
+}
+
+
+.btbuy {
+    background-color: rgb(76, 77, 77);
+    color: whitesmoke;
+    border: 5px whitesmoke outset;
+    border-radius: 5px;
+
+}
+
+
+.trtr th{
+    position:relative;
+    margin-left: 10em;
+    background-color: rgb(10, 13, 14);
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    background: rgb(10, 13, 14);
+    background: linear-gradient(90deg, rgba(77, 78, 84, 1) 0%, rgba(146, 150, 149, 1) 100%);
+    margin-top: 500px;
+}
+
+footer > .enlaces {
+    display: inline-block;
+    word-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+footer > span {
+    margin-top: 10px;
+    display: flex;
+    font-size: 1em;
+    color: #ddd;
+}
